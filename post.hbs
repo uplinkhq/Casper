@@ -81,8 +81,8 @@ into the {body} tag of the default.hbs template --}}
 
 </article>
 
-{{!--
 {{!-- A signup call to action is displayed here, unless viewed as a logged-in member --}}
+{{!--
 {{#unless @member}}
 <section class="footer-cta">
     <div class="inner">
@@ -91,8 +91,6 @@ into the {body} tag of the default.hbs template --}}
             <div>Enter your email</div>
             <span>Subscribe</span>
         </a>
-        {{!-- ^ This looks like a form element, but it's just a link to Portal,
-        making the form validation and submission much simpler. --}}
     </div>
 </section>
 {{/unless}}
