@@ -154,7 +154,7 @@ production stylesheet in assets/built/screen.css
 }
 
 .site-header-content {
-    padding: 18vmin 4vmin;
+    padding: 16vmin 4vmin 10vmin;
     font-size: 2.5rem;
     font-weight: 400;
     color: #fff;
