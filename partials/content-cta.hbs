@@ -1,0 +1,14 @@
+{{{html}}}
+
+<aside class="gh-post-upgrade-cta">
+    <div class="gh-post-upgrade-cta-content" style="background-color: {{accentColor}}">
+        {{#has visibility="members"}}
+            <h2>This post is visible to Uplink members only.</h2>
+        {{/has}}
+        {{#unless @member}}
+            <p><small>To sign in, please use the same email address that you used for your Uplink member profile.</small></p>
+            <a class="gh-btn" data-portal="signin" style="color: {{accentColor}}">Sign in</a>
+            <p><small>If you're not a Uplink member yet, <a href="https://uplink.tech/freelancer" target="_blank">apply here</a>!</small></p>
+        {{/unless}}
+    </div>
+</aside>
